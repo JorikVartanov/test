@@ -91,12 +91,12 @@
 	
 				<?php
 					if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-						
-						if ($_POST['username'] != ''){
-							$username = $_POST['username'];
+						//Filter for $username
+						if ($_POST['username'] == '' OR !preg_match('/^[a-zA-Z0-9\'\- ]+$/', $_POST['username'])){ //The filter should allow names with quotes and dashes. For example: Shaquille O'Neal or Anastasiya Sokolova-Rosha
+							$username = 'Invalid Name';
 						}
 						else{
-							$username = 'Insert name';
+							$username = $_POST['username'];
 						}
 						if ($_POST['email'] != ''){
 							$email = $_POST['email'];
