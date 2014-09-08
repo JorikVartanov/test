@@ -26,12 +26,7 @@
 				<div class="row">
 					<div class="col-md-4">
 						<form method="post" class="form-horizontal" role="form">
-							<div class="form-group">
-								<label for="inputText" class="col-sm-2 control-label">Text</label>
-								<div class="col-sm-10">
-									<textarea class="form-control" name="comment" id="inputComment" placeholder="Comment" rows="3"></textarea>
-								</div>
-							</div>
+							
 							<div class="form-group">
 								<label for="inputName" class="col-sm-2 control-label">Name</label>
 								<div class="col-sm-10">
@@ -48,6 +43,12 @@
 								<label for="inputPassword" class="col-sm-2 control-label">Password</label>
 								<div class="col-sm-10">
 									<input type="password" name="password" class="form-control" id="inputPassword" placeholder="Password">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="inputText" class="col-sm-2 control-label">Text</label>
+								<div class="col-sm-10">
+									<textarea class="form-control" name="comment" id="inputComment" placeholder="Comment" rows="3"></textarea>
 								</div>
 							</div>
 							<div class="form-group">
