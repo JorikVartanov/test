@@ -57,10 +57,22 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="InputFile" class="col-sm-3 control-label">File input</label>
+								<label for="inputFile" class="col-sm-3 control-label">File input</label>
 								<div class="col-sm-9">
-									<input type="file" name="file" id="InputFile" placeholder="File">
-									<p class="help-block">Example block-level help text here.</p>
+									<input type="file" name="file" id="inputFile" placeholder="File">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="captcha" class="col-sm-3 control-label"></label>
+								<div class="col-sm-9">
+									<img src="captcha.php" alt="" name="captcha" id="captcha"/>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="inputCaptcha" class="col-sm-3 control-label"></label>
+								<div class="col-sm-9">
+								    <h6 class="help-block">Введите код с картинки.</h6>
+									<input type="text" name="inputCaptcha" class="form-control" id="inputCaptcha" placeholder="код с картинки">
 								</div>
 							</div>
 							<div class="form-group">
