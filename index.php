@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php
+session_start();
+include('functions.php');
+?>
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +14,9 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	</head>
 		<body>
+			
 			<div class="container-fluid">
+				<!--
 				<div class="row">
 					<div class="col-md-4">
 						<h6>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст </h6>
@@ -21,95 +27,35 @@
 					<div class="col-md-4">
 						<h6>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст </h6>
 					</div>
-				</div>
+				</div> -->
 				<a href="phpinfo.php">phpinfo</a></p>
-				<div class="row">
-					<div class="col-md-4">
-						<form method="post" class="form-horizontal" role="form">
-							<div class="form-group">
-								<label for="inputText" class="col-sm-3 control-label">Text</label>
-								<div class="col-sm-9">
-									<textarea class="form-control" name="comment" id="inputComment" placeholder="Comment" rows="3"></textarea>
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="inputName" class="col-sm-3 control-label">Name</label>
-								<div class="col-sm-9">
-									<input type="text" name="username" class="form-control" id="inputName" placeholder="Name">
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="inputEmail" class="col-sm-3 control-label">Email</label>
-								<div class="col-sm-9">
-									<input type="email" name="email" class="form-control" id="inputEmail" placeholder="Email">
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="inputHomepage" class="col-sm-3 control-label">Homepage</label>
-								<div class="col-sm-9">
-									<input type="text" name="homepage" class="form-control" id="inputHomepage" placeholder="Homepage">
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="inputPassword" class="col-sm-3 control-label">Password</label>
-								<div class="col-sm-9">
-									<input type="password" name="password" class="form-control" id="inputPassword" placeholder="Password">
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="inputFile" class="col-sm-3 control-label">File input</label>
-								<div class="col-sm-9">
-									<input type="file" name="file" id="inputFile" placeholder="File">
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="captcha" class="col-sm-3 control-label"></label>
-								<div class="col-sm-9">
-									<img src="captcha.php" alt="" name="captcha" id="captcha"/>
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="inputCaptcha" class="col-sm-3 control-label"></label>
-								<div class="col-sm-9">
-								    <h6 class="help-block">Введите код с картинки.</h6>
-									<input type="text" name="inputCaptcha" class="form-control" id="inputCaptcha" placeholder="код с картинки">
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-offset-3 col-sm-9">
-									<div class="checkbox">
-										<label>
-											<input type="checkbox"> Remember me
-										</label>
-									</div>
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-offset-3 col-sm-9">
-									<button type="submit" class="btn btn-default">Submit</button>
-								</div>
-							</div>
-						</form>
-					</div>
-					<div class="col-md-4">
-						
-					</div>
-					<div class="col-md-4">
-						
-					</div>
-					
-					
-					
-					
-					
-					
-					
-				</div>
-	
-	
+			
 				<?php
-					if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-						//Filter for $username
+					if ($_SERVER['REQUEST_METHOD'] == 'GET') {
+						form();
+						echo "</br> Comes with GET </br>";
+					}elseif ($_SERVER['REQUEST_METHOD'] == 'POST'){
+						
+						//if ($_SERVER['REQUEST_METHOD'] == 'POST' AND isset($_POST['submit'])){
+						//header("Location:".$_SERVER['HTTP_REFERER']);
+						//	exit;
+						//}
+						if (isset($_POST['submit']) AND $_POST['inputCaptcha'] == '' AND $_POST['username'] == '' AND $_POST['email'] =='' AND $_POST['homepage'] == '' AND $_POST['comment'] == '' AND $_POST['password'] == '') {
+							header("Location:".$_SERVER['HTTP_REFERER']);
+							exit;
+						}
+						form();
+						if ($_POST['inputCaptcha'] != '' AND $_POST['inputCaptcha'] == $_SESSION['code']){
+							$code = 'Код введен верно';
+							unset($_SESSION['code']);
+							session_destroy();
+						}
+						else{
+							$code = 'Insert code';
+							unset($_SESSION['code']);
+							session_destroy();
+							//header("Location:".$_SERVER['HTTP_REFERER']);
+						}
 						if ($_POST['username'] == '' OR !preg_match('/^[a-zA-Z0-9]+$/', $_POST['username'])){ //The filter should allow names with quotes and dashes. For example: Shaquille O'Neal or Anastasiya Sokolova-Rosha
 							$username = 'Invalid Name';
 						}
@@ -132,7 +78,7 @@
 							$comment = filter_var($_POST['comment'], FILTER_SANITIZE_STRING);
 						}
 						else{
-							$comment = 'Insert comment';
+							$comment = 'Invalid comment';
 						}
 						if ($_POST['password'] != ''){
 							$password = $_POST['password'];
@@ -145,13 +91,24 @@
 						echo "Твоя страница: $homepage </p>";
 						echo "Твой комментарий: $comment </p>";
 						echo "Твой пароль: $password </p>";
-						echo "REMOTE_ADDR";
+						echo "Результат кода: $code </p>";
+						echo $_SERVER['REMOTE_ADDR'].'</p>';
+						
+						//unset($_POST['inputCaptcha'], $_POST['username'], $_POST['email'], $_POST['homepage'], $_POST['comment'], $_POST['password']);
+						//unset($_POST);
+						
+						$message = "Line 1\nLine 2\nLine 3";
+						$message = wordwrap($message, 70);
+						mail('jorikvartanov13@i.ua', 'My Subject', $message);
+						
+						header("Location:".$_SERVER['HTTP_REFERER']);
+						die;
 					}
 				?>
 			</div>
 	  
 			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-			<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>  -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 			<script src="http://code.jquery.com/jquery-2.1.0.min.js" type="text/javascript"></script>
 			<!-- Include all compiled plugins (below), or include individual files as needed -->
 			<!-- <script src="js/bootstrap.js"></script>  --> 
