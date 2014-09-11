@@ -20,7 +20,7 @@ include('functions.php');
 						<h1>КАКАЯ-ТО ТЕМА ДЛЯ ОБСУЖДЕНИЙ :-)</h1>
 					</div>
 				</div>
-				<a href="phpinfo.php">phpinfo</a></p>
+				<p><a href="phpinfo.php">phpinfo</a></p>
 			
 				<?php
 					if ($_SERVER['REQUEST_METHOD'] == 'GET') {
@@ -36,11 +36,10 @@ include('functions.php');
 						if ($_POST['inputCaptcha'] != '' AND $_POST['inputCaptcha'] == $_SESSION['code']){
 							$code = 'Код введен верно';
 							unset($_SESSION['code']);
-							session_destroy();
+							//session_destroy();
 						}
 						else{
 							$code = 'Insert code';
-							unset($_SESSION['code']);
 							session_destroy();
 							//header("Location:".$_SERVER['HTTP_REFERER']);
 						}
@@ -96,14 +95,14 @@ include('functions.php');
 							$browser = "Mozilla Firefox";
 						}
 						echo $browser;
-						
+						/*
 						mysql_connect('localhost', 'root', 'root') or die('Ошибка соединения с MySQL!');
 						mysql_select_db('gestbook') or die ('Ошибка соединения с базой данных MySQL!');
 						mysql_set_charset('utf8'); // выставляем кодировку базы данных
 						mysql_query("INSERT INTO `comments` (`user_name`, `email`,`homepage`,`text`,`date`,`browser`,`ip_user`) VALUES ('".$username."', '".$email."', '".$homepage."', '".$comment."', '".$commentDate."', '".$browser."', '".$ip_user."')");
 						echo 'Вы успешно зарегистрированы!'; 
 						exit();
-						
+						*/
 						
 						header("Location:".$_SERVER['HTTP_REFERER']);
 						die;
