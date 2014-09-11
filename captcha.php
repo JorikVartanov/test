@@ -22,4 +22,5 @@ session_start();
                 imagepng($image);
                 
                 imagedestroy($image);
+
                 
