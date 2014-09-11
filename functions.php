@@ -28,12 +28,14 @@ function form(){
                                     <input type="text" name="homepage" class="form-control" id="inputHomepage" placeholder="Homepage">
                             </div>
                     </div>
-                    <div class="form-group">
+                    
+                    <!--<div class="form-group">
                             <label for="inputPassword" class="col-sm-3 control-label">Password</label>
                             <div class="col-sm-9">
                                     <input type="password" name="password" class="form-control" id="inputPassword" placeholder="Password">
                             </div>
-                    </div>
+                    </div> -->
+                    
                     <div class="form-group">
                             <label for="inputFile" class="col-sm-3 control-label">File input</label>
                             <div class="col-sm-9">

@@ -14,33 +14,21 @@ include('functions.php');
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	</head>
 		<body>
-			
 			<div class="container-fluid">
-				<!--
 				<div class="row">
-					<div class="col-md-4">
-						<h6>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст </h6>
+					<div class="col-md-12">
+						<h1>КАКАЯ-ТО ТЕМА ДЛЯ ОБСУЖДЕНИЙ :-)</h1>
 					</div>
-					<div class="col-md-4">
-						<h6>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст </h6>
-					</div>
-					<div class="col-md-4">
-						<h6>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст </h6>
-					</div>
-				</div> -->
+				</div>
 				<a href="phpinfo.php">phpinfo</a></p>
 			
 				<?php
 					if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 						form();
 						echo "</br> Comes with GET </br>";
-					}elseif ($_SERVER['REQUEST_METHOD'] == 'POST'){
+					}else{
 						
-						//if ($_SERVER['REQUEST_METHOD'] == 'POST' AND isset($_POST['submit'])){
-						//header("Location:".$_SERVER['HTTP_REFERER']);
-						//	exit;
-						//}
-						if (isset($_POST['submit']) AND $_POST['inputCaptcha'] == '' AND $_POST['username'] == '' AND $_POST['email'] =='' AND $_POST['homepage'] == '' AND $_POST['comment'] == '' AND $_POST['password'] == '') {
+						if ($_POST['inputCaptcha'] == '' AND $_POST['username'] == '' AND $_POST['email'] =='' AND $_POST['homepage'] == '' AND $_POST['comment'] == '' AND $_POST['password'] == '') {
 							header("Location:".$_SERVER['HTTP_REFERER']);
 							exit;
 						}
@@ -80,26 +68,42 @@ include('functions.php');
 						else{
 							$comment = 'Invalid comment';
 						}
-						if ($_POST['password'] != ''){
-							$password = $_POST['password'];
-						}
-						else{
-							$password = 'Insert password';
-						}
+
+						$commentDate = date("Y.m.d, H:i:s");
+						$ip_user = $_SERVER['REMOTE_ADDR'];
+						
 						echo "Привет, $username </p>";
 						echo "Твое мыло: $email </p>";
 						echo "Твоя страница: $homepage </p>";
 						echo "Твой комментарий: $comment </p>";
-						echo "Твой пароль: $password </p>";
 						echo "Результат кода: $code </p>";
-						echo $_SERVER['REMOTE_ADDR'].'</p>';
+						echo $ip_user.'</p>';
+						echo "$commentDate </br>";
 						
-						//unset($_POST['inputCaptcha'], $_POST['username'], $_POST['email'], $_POST['homepage'], $_POST['comment'], $_POST['password']);
-						//unset($_POST);
+						if(strstr($_SERVER['HTTP_USER_AGENT'], 'MSIE'))
+						$browser = 'Internet explorer';
+						elseif(strstr($_SERVER['HTTP_USER_AGENT'], 'Trident'))
+						$browser = 'Internet explorer';
+						elseif(strstr($_SERVER['HTTP_USER_AGENT'], 'Firefox'))
+						$browser = 'Mozilla Firefox';
+						elseif(strstr($_SERVER['HTTP_USER_AGENT'], 'Chrome'))
+						$browser = 'Google Chrome';
+						elseif(strstr($_SERVER['HTTP_USER_AGENT'], 'Opera'))
+						$browser = "Opera";
+						elseif(strstr($_SERVER['HTTP_USER_AGENT'], 'Safari'))
+						$browser = "Safari";
+						else {
+							$browser = "Mozilla Firefox";
+						}
+						echo $browser;
 						
-						$message = "Line 1\nLine 2\nLine 3";
-						$message = wordwrap($message, 70);
-						mail('jorikvartanov13@i.ua', 'My Subject', $message);
+						mysql_connect('localhost', 'root', 'root') or die('Ошибка соединения с MySQL!');
+						mysql_select_db('gestbook') or die ('Ошибка соединения с базой данных MySQL!');
+						mysql_set_charset('utf8'); // выставляем кодировку базы данных
+						mysql_query("INSERT INTO `comments` (`user_name`, `email`,`homepage`,`text`,`date`,`browser`,`ip_user`) VALUES ('".$username."', '".$email."', '".$homepage."', '".$comment."', '".$commentDate."', '".$browser."', '".$ip_user."')");
+						echo 'Вы успешно зарегистрированы!'; 
+						exit();
+						
 						
 						header("Location:".$_SERVER['HTTP_REFERER']);
 						die;
