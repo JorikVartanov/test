@@ -11,3 +11,5 @@
 [Thu Sep 04 10:37:37.199260 2014] [:error] [pid 1180] [client 127.0.0.1:42561] PHP Parse error:  syntax error, unexpected end of file in /home/sergio/projects/test/index.php on line 128
 [Thu Sep 04 10:42:14.529198 2014] [:error] [pid 2632] [client 127.0.0.1:42572] PHP Notice:  Undefined variable: comment in /home/sergio/projects/test/index.php on line 117, referer: http://test.loc/index.php
 [Thu Sep 04 10:49:08.851767 2014] [:error] [pid 10860] [client 127.0.0.1:42575] PHP Notice:  Undefined variable: email in /home/sergio/projects/test/index.php on line 118, referer: http://test.loc/index.php
+[Mon Sep 08 20:21:28.111012 2014] [:error] [pid 5116] [client 127.0.0.1:49050] script '/var/www/test/phpinfo.php' not found or unable to stat, referer: http://test.loc/
+[Mon Sep 08 20:26:57.659353 2014] [:error] [pid 3190] [client 127.0.0.1:49058] script '/var/www/test/captcha.php' not found or unable to stat, referer: http://test.loc/
