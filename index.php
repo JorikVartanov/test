@@ -55,11 +55,11 @@ include('functions.php');
 						else{
 							$email = 'Invalid email';
 						}
-						if ($_POST['homepage'] == '' OR !filter_var($_POST['homepage'], FILTER_VALIDATE_URL)){
-							$homepage = 'Invalid homepage';
+						if ($_POST['homepage'] != '' OR filter_var($_POST['homepage'], FILTER_VALIDATE_URL)){
+							$homepage = $_POST['homepage'];
 						}
 						else{
-							$homepage = $_POST['homepage'];
+							$homepage = NULL;
 						}
 						if ($_POST['comment'] != ''){						
 							$comment = filter_var($_POST['comment'], FILTER_SANITIZE_STRING);
@@ -79,6 +79,12 @@ include('functions.php');
 						echo $ip_user.'</p>';
 						echo "$commentDate </br>";
 						
+						?><!--
+						<script type="text/javascript">
+							alert ('vash text')
+						</script>
+						!><?php
+						
 						if(strstr($_SERVER['HTTP_USER_AGENT'], 'MSIE'))
 						$browser = 'Internet explorer';
 						elseif(strstr($_SERVER['HTTP_USER_AGENT'], 'Trident'))
@@ -95,14 +101,14 @@ include('functions.php');
 							$browser = "Mozilla Firefox";
 						}
 						echo $browser;
-						/*
+						
 						mysql_connect('localhost', 'root', 'root') or die('Ошибка соединения с MySQL!');
 						mysql_select_db('gestbook') or die ('Ошибка соединения с базой данных MySQL!');
 						mysql_set_charset('utf8'); // выставляем кодировку базы данных
 						mysql_query("INSERT INTO `comments` (`user_name`, `email`,`homepage`,`text`,`date`,`browser`,`ip_user`) VALUES ('".$username."', '".$email."', '".$homepage."', '".$comment."', '".$commentDate."', '".$browser."', '".$ip_user."')");
 						echo 'Вы успешно зарегистрированы!'; 
 						exit();
-						*/
+						
 						
 						header("Location:".$_SERVER['HTTP_REFERER']);
 						die;

@@ -127,3 +127,8 @@
 [Thu Sep 11 13:29:35.454646 2014] [core:error] [pid 2827] (13)Permission denied: [client 127.0.0.1:44104] AH00132: file permissions deny server access: /var/www/test/pictures/pick.PNG, referer: http://test.loc/
 [Thu Sep 11 13:31:25.169180 2014] [core:error] [pid 1135] (13)Permission denied: [client 127.0.0.1:44113] AH00132: file permissions deny server access: /var/www/test/pictures/pick.png, referer: http://test.loc/
 >>>>>>> 6852f022bfc01de3361e3ee9f8482f8d41836aa3
+[Fri Sep 12 15:02:29.201024 2014] [:error] [pid 2722] [client 127.0.0.1:44476] PHP Parse error:  syntax error, unexpected end of file in /home/sergio/projects/test/index.php on line 123, referer: http://test.loc/
+[Fri Sep 12 15:03:41.376269 2014] [:error] [pid 2833] [client 127.0.0.1:44499] PHP Notice:  Undefined variable: homepage in /home/sergio/projects/test/index.php on line 73, referer: http://test.loc/
+[Fri Sep 12 15:03:41.377698 2014] [:error] [pid 2833] [client 127.0.0.1:44499] PHP Notice:  Undefined variable: homepage in /home/sergio/projects/test/index.php on line 105, referer: http://test.loc/
+[Fri Sep 12 15:19:40.531146 2014] [:error] [pid 2833] [client 127.0.0.1:44582] PHP Notice:  Undefined variable: homepage in /home/sergio/projects/test/index.php on line 76, referer: http://test.loc/
+[Fri Sep 12 15:19:40.531489 2014] [:error] [pid 2833] [client 127.0.0.1:44582] PHP Notice:  Undefined variable: homepage in /home/sergio/projects/test/index.php on line 108, referer: http://test.loc/
