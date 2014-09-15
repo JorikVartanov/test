@@ -21,13 +21,12 @@ include('functions.php');
 					</div>
 				</div>
 				<p><a href="phpinfo.php">phpinfo</a></p>
-			
+				
 				<?php
 					if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 						form();
 						echo "</br> Comes with GET </br>";
 					}else{
-						
 						if ($_POST['inputCaptcha'] == '' AND $_POST['username'] == '' AND $_POST['email'] =='' AND $_POST['homepage'] == '' AND $_POST['comment'] == '' AND $_POST['password'] == '') {
 							header("Location:".$_SERVER['HTTP_REFERER']);
 							exit;
@@ -55,11 +54,11 @@ include('functions.php');
 						else{
 							$email = 'Invalid email';
 						}
-						if ($_POST['homepage'] != '' OR filter_var($_POST['homepage'], FILTER_VALIDATE_URL)){
-							$homepage = $_POST['homepage'];
+						if ($_POST['homepage'] == '' OR !filter_var($_POST['homepage'], FILTER_VALIDATE_URL)){
+							$homepage = NULL;
 						}
 						else{
-							$homepage = NULL;
+							$homepage = $_POST['homepage'];
 						}
 						if ($_POST['comment'] != ''){						
 							$comment = filter_var($_POST['comment'], FILTER_SANITIZE_STRING);
@@ -67,7 +66,6 @@ include('functions.php');
 						else{
 							$comment = 'Invalid comment';
 						}
-
 						$commentDate = date("Y.m.d, H:i:s");
 						$ip_user = $_SERVER['REMOTE_ADDR'];
 						
@@ -78,12 +76,6 @@ include('functions.php');
 						echo "Результат кода: $code </p>";
 						echo $ip_user.'</p>';
 						echo "$commentDate </br>";
-						
-						?><!--
-						<script type="text/javascript">
-							alert ('vash text')
-						</script>
-						!><?php
 						
 						if(strstr($_SERVER['HTTP_USER_AGENT'], 'MSIE'))
 						$browser = 'Internet explorer';
@@ -101,18 +93,61 @@ include('functions.php');
 							$browser = "Mozilla Firefox";
 						}
 						echo $browser;
-						
+						echo 'QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ';
 						mysql_connect('localhost', 'root', 'root') or die('Ошибка соединения с MySQL!');
 						mysql_select_db('gestbook') or die ('Ошибка соединения с базой данных MySQL!');
 						mysql_set_charset('utf8'); // выставляем кодировку базы данных
 						mysql_query("INSERT INTO `comments` (`user_name`, `email`,`homepage`,`text`,`date`,`browser`,`ip_user`) VALUES ('".$username."', '".$email."', '".$homepage."', '".$comment."', '".$commentDate."', '".$browser."', '".$ip_user."')");
-						echo 'Вы успешно зарегистрированы!'; 
+						echo 'Вы успешно зарегистрированы!';
+						/*
+						function table ($name, $arrName) {
+							$result = count($arrName);
+							?><tr>
+							    <th><?php echo $name; ?></th>
+							    <?php for ($i = 1; $i <= $result; $i++){ ?>
+								<td align="center"><?php echo ($arrName[$i-1]);?></td>
+								<?php } ?>
+							</tr>
+						<?php }
+						*/
 						exit();
 						
 						
-						header("Location:".$_SERVER['HTTP_REFERER']);
-						die;
+						
+						
+						
+						//header("Location:".$_SERVER['HTTP_REFERER']);
+						//die;
 					}
+					
+					$mysqli = new mysqli("localhost", "root", "root", "gestbook");
+
+						/* проверка подключения */
+						if (mysqli_connect_errno()) {
+						    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+						    exit();
+						}
+						
+						$query = "SELECT user_name, text, email, homepage, date FROM comments ORDER by comments.id_comments DESC LIMIT 0 , 30";
+						$result = $mysqli->query($query);
+						
+						/* обычный массив */
+						//$row = $result->fetch_array(MYSQLI_NUM);
+						//printf ("%s (%s)\n", $row[0], $row[1]);
+						
+						/* ассоциативный массив */
+						$row = $result->fetch_array(MYSQLI_ASSOC);
+						printf ("%s (%s)\n", $row["Name"], $row["CountryCode"]);
+						
+						/* ассоциативный и обычный массивы */
+						//$row = $result->fetch_array(MYSQLI_BOTH);
+						//printf ("%s (%s)\n", $row[0], $row["CountryCode"]);
+						
+						/* очищаем результаты выборки */
+						$result->free();
+						
+						/* закрываем подключение */
+						$mysqli->close();
 				?>
 			</div>
 	  
