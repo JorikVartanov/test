@@ -124,27 +124,25 @@ include('functions.php');
 
 						/* проверка подключения */
 						if (mysqli_connect_errno()) {
-						    printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-						    exit();
+							printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+							exit();
 						}
 						
 						$query = "SELECT user_name, text, email, homepage, date FROM comments ORDER by comments.id_comments DESC LIMIT 0 , 30";
-						$result = $mysqli->query($query);
+						//$result = $mysqli->query($query);
 						
 						/* обычный массив */
 						//$row = $result->fetch_array(MYSQLI_NUM);
 						//printf ("%s (%s)\n", $row[0], $row[1]);
 						
 						/* ассоциативный массив */
-						$row = $result->fetch_array(MYSQLI_ASSOC);
-						printf ("%s (%s)\n", $row["Name"], $row["CountryCode"]);
-						
-						/* ассоциативный и обычный массивы */
-						//$row = $result->fetch_array(MYSQLI_BOTH);
-						//printf ("%s (%s)\n", $row[0], $row["CountryCode"]);
-						
-						/* очищаем результаты выборки */
-						$result->free();
+						if ($result = $mysqli->query($query)) {
+							while ($row = $result->fetch_assoc()) {
+								printf ("%s (%s)\n", $row["user_name"], $row["text"]);
+							}
+							/* удаление выборки */
+							$result->free();
+						}
 						
 						/* закрываем подключение */
 						$mysqli->close();

@@ -141,3 +141,52 @@
 [Mon Sep 15 13:00:17.180474 2014] [:error] [pid 2773] [client 127.0.0.1:35020] PHP Notice:  Undefined index: Name in /home/sergio/projects/test/index.php on line 142, referer: http://test.loc/
 [Mon Sep 15 13:00:17.180513 2014] [:error] [pid 2773] [client 127.0.0.1:35020] PHP Notice:  Undefined index: CountryCode in /home/sergio/projects/test/index.php on line 142, referer: http://test.loc/
 [Mon Sep 15 13:00:17.180545 2014] [:error] [pid 2773] [client 127.0.0.1:35020] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sergio/projects/test/functions.php:81) in /home/sergio/projects/test/index.php on line 155, referer: http://test.loc/
+[Tue Sep 16 14:27:31.736570 2014] [:error] [pid 1147] [client 127.0.0.1:58639] PHP Notice:  Undefined index: Name in /home/sergio/projects/test/index.php on line 140
+[Tue Sep 16 14:27:31.747840 2014] [:error] [pid 1147] [client 127.0.0.1:58639] PHP Notice:  Undefined index: CountryCode in /home/sergio/projects/test/index.php on line 140
+[Tue Sep 16 14:34:22.860358 2014] [:error] [pid 2672] [client 127.0.0.1:58646] PHP Notice:  Undefined index: Name in /home/sergio/projects/test/index.php on line 140
+[Tue Sep 16 14:34:22.860390 2014] [:error] [pid 2672] [client 127.0.0.1:58646] PHP Notice:  Undefined index: CountryCode in /home/sergio/projects/test/index.php on line 140
+[Tue Sep 16 14:34:47.154375 2014] [:error] [pid 1146] [client 127.0.0.1:58650] PHP Notice:  Undefined index: Name in /home/sergio/projects/test/index.php on line 140
+[Tue Sep 16 14:34:47.154410 2014] [:error] [pid 1146] [client 127.0.0.1:58650] PHP Notice:  Undefined index: CountryCode in /home/sergio/projects/test/index.php on line 140
+[Tue Sep 16 14:35:37.905286 2014] [:error] [pid 2648] [client 127.0.0.1:58653] PHP Notice:  Undefined index: Name in /home/sergio/projects/test/index.php on line 140
+[Tue Sep 16 14:35:37.905324 2014] [:error] [pid 2648] [client 127.0.0.1:58653] PHP Notice:  Undefined index: CountryCode in /home/sergio/projects/test/index.php on line 140
+[Tue Sep 16 14:35:49.593149 2014] [:error] [pid 2672] [client 127.0.0.1:58656] PHP Notice:  Undefined index: Name in /home/sergio/projects/test/index.php on line 140
+[Tue Sep 16 14:35:49.593191 2014] [:error] [pid 2672] [client 127.0.0.1:58656] PHP Notice:  Undefined index: CountryCode in /home/sergio/projects/test/index.php on line 140
+[Tue Sep 16 14:53:37.754527 2014] [:error] [pid 2765] [client 127.0.0.1:58662] PHP Fatal error:  Call to undefined function printr() in /home/sergio/projects/test/index.php on line 140
+[Tue Sep 16 15:16:01.230213 2014] [:error] [pid 1148] [client 127.0.0.1:58821] PHP Notice:  Undefined variable: arr in /home/sergio/projects/test/index.php on line 141
+[Tue Sep 16 15:16:01.230249 2014] [:error] [pid 1148] [client 127.0.0.1:58821] PHP Warning:  Invalid argument supplied for foreach() in /home/sergio/projects/test/index.php on line 141
+[Tue Sep 16 15:16:05.290614 2014] [:error] [pid 1148] [client 127.0.0.1:58821] PHP Notice:  Undefined variable: arr in /home/sergio/projects/test/index.php on line 141
+[Tue Sep 16 15:16:05.290676 2014] [:error] [pid 1148] [client 127.0.0.1:58821] PHP Warning:  Invalid argument supplied for foreach() in /home/sergio/projects/test/index.php on line 141
+[Tue Sep 16 15:17:21.675410 2014] [:error] [pid 2776] [client 127.0.0.1:58827] PHP Notice:  Undefined variable: row in /home/sergio/projects/test/index.php on line 141
+[Tue Sep 16 15:17:21.675436 2014] [:error] [pid 2776] [client 127.0.0.1:58827] PHP Warning:  Invalid argument supplied for foreach() in /home/sergio/projects/test/index.php on line 141
+[Tue Sep 16 15:17:24.417812 2014] [:error] [pid 2776] [client 127.0.0.1:58827] PHP Notice:  Undefined variable: row in /home/sergio/projects/test/index.php on line 141
+[Tue Sep 16 15:17:24.417855 2014] [:error] [pid 2776] [client 127.0.0.1:58827] PHP Warning:  Invalid argument supplied for foreach() in /home/sergio/projects/test/index.php on line 141
+[Tue Sep 16 15:17:55.600415 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600440 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600446 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600451 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600456 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600461 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600467 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600472 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600477 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600481 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600486 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600492 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600497 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600502 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600507 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600512 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600517 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600521 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600526 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600541 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600546 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600550 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600555 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600560 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600564 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600569 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600573 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600578 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600582 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
+[Tue Sep 16 15:17:55.600587 2014] [:error] [pid 3694] [client 127.0.0.1:58830] PHP Notice:  Array to string conversion in /home/sergio/projects/test/index.php on line 143
