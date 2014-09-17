@@ -12,6 +12,13 @@ include('functions.php');
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- <script>
+		$(document).ready(function(){
+			$('#table_id').dataTable();
+		});
+		
+	</script> -->
 	</head>
 		<body>
 			<div class="container-fluid">
@@ -93,67 +100,54 @@ include('functions.php');
 							$browser = "Mozilla Firefox";
 						}
 						echo $browser;
-						echo 'QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ';
 						mysql_connect('localhost', 'root', 'root') or die('Ошибка соединения с MySQL!');
 						mysql_select_db('gestbook') or die ('Ошибка соединения с базой данных MySQL!');
 						mysql_set_charset('utf8'); // выставляем кодировку базы данных
 						mysql_query("INSERT INTO `comments` (`user_name`, `email`,`homepage`,`text`,`date`,`browser`,`ip_user`) VALUES ('".$username."', '".$email."', '".$homepage."', '".$comment."', '".$commentDate."', '".$browser."', '".$ip_user."')");
 						echo 'Вы успешно зарегистрированы!';
-						/*
-						function table ($name, $arrName) {
-							$result = count($arrName);
-							?><tr>
-							    <th><?php echo $name; ?></th>
-							    <?php for ($i = 1; $i <= $result; $i++){ ?>
-								<td align="center"><?php echo ($arrName[$i-1]);?></td>
-								<?php } ?>
-							</tr>
-						<?php }
-						*/
 						exit();
-						
-						
-						
-						
-						
-						//header("Location:".$_SERVER['HTTP_REFERER']);
-						//die;
 					}
-					
+					//$message = "wrong answer";
+					//echo "<script type='text/javascript'>alert('$message');</script>";
 					$mysqli = new mysqli("localhost", "root", "root", "gestbook");
-
-						/* проверка подключения */
-						if (mysqli_connect_errno()) {
-							printf("Не удалось подключиться: %s\n", mysqli_connect_error());
-							exit();
-						}
-						
-						$query = "SELECT user_name, text, email, homepage, date FROM comments ORDER by comments.id_comments DESC LIMIT 0 , 30";
-						//$result = $mysqli->query($query);
-						
-						/* обычный массив */
-						//$row = $result->fetch_array(MYSQLI_NUM);
-						//printf ("%s (%s)\n", $row[0], $row[1]);
-						
-						/* ассоциативный массив */
-						if ($result = $mysqli->query($query)) {
-							while ($row = $result->fetch_assoc()) {
-								printf ("%s (%s)\n", $row["user_name"], $row["text"]);
-							}
-							/* удаление выборки */
-							$result->free();
-						}
-						
-						/* закрываем подключение */
-						$mysqli->close();
+					if (mysqli_connect_errno()) {
+						printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+						exit();
+					}
+					$select_query = "SELECT user_name, text, email, homepage, date FROM comments ORDER by comments.id_comments DESC LIMIT 0 , 25";
+					if ($result = $mysqli->query($select_query)) {
+						?><table id="table_id" class="table table-bordered">
+							<thead>
+								<tr>
+									<th> <?php echo 'Name'; ?> <button type="button" class="glyphicon glyphicon-sort-by-alphabet"><button type="button" class="glyphicon glyphicon-sort-by-alphabet-alt"></th>
+									<th> <?php echo 'Text'; ?></th>
+									<th> <?php echo 'Email'; ?> <button type="button" class="glyphicon glyphicon-sort-by-alphabet"><button type="button" class="glyphicon glyphicon-sort-by-alphabet-alt"></th>
+									<th> <?php echo 'Homepage'; ?></th>
+									<th> <?php echo 'Date'; ?> <button type="button" class="glyphicon glyphicon-sort-by-alphabet"><button type="button" class="glyphicon glyphicon-sort-by-alphabet-alt"></th>
+								</tr>
+							</thead>
+							<tbody>
+						<?php		while ($row = $result->fetch_assoc()) {
+						?>			<tr>
+						<?php			foreach ($row as $value){
+						?>				<td><?php echo "$value"; ?></td>
+						<?php			}
+						?>			</tr>
+						<?php		}
+						?>	</tbody>
+							<?php $result->free(); ?>
+						</table>
+					<?php
+					}
+					$mysqli->close();
+					
 				?>
 			</div>
-	  
-			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+			
 			<script src="http://code.jquery.com/jquery-2.1.0.min.js" type="text/javascript"></script>
 			<!-- Include all compiled plugins (below), or include individual files as needed -->
-			<!-- <script src="js/bootstrap.js"></script>  --> 
 			<script src="js/bootstrap.js" type="text/javascript"></script>
+			<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+
 		</body>
 </html>

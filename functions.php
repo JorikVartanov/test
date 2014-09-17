@@ -80,4 +80,34 @@ function form(){
 </div>
 <?php
 }
+function tableShow(){
+        $mysqli = new mysqli("localhost", "root", "root", "gestbook");
+                if (mysqli_connect_errno()) {
+                        printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+                        exit();
+                }
+                $select_query = "SELECT user_name, text, email, homepage, date FROM comments ORDER by comments.id_comments DESC LIMIT 0 , 30";
+                if ($result = $mysqli->query($select_query)) {
+                        ?><table class="table table-bordered">
+                                <tr>
+                                        <th> <?php echo 'Name'; ?></th>
+                                        <th> <?php echo 'Text'; ?></th>
+                                        <th> <?php echo 'Email'; ?></th>
+                                        <th> <?php echo 'Homepage'; ?></th>
+                                        <th> <?php echo 'Date'; ?></th>
+                                </tr>
+                        <?php		while ($row = $result->fetch_assoc()) {
+                        ?>			<tr>
+                        <?php			foreach ($row as $value){
+                        ?>				<td><?php echo "$value"; ?></td>
+                        <?php			}
+                        ?>			</tr>
+                        <?php		}
+                        ?>
+                                <?php $result->free(); ?>
+                        </table>
+                <?php
+                }
+                $mysqli->close();
+}
 ?>
