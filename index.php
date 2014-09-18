@@ -18,6 +18,13 @@ include('functions.php');
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<!-- <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script> -->
 	<script type="text/javascript" src="js/my_script.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("button").click(function(){
+				$("#div1").load("demo_test.txt");
+			});
+		});
+	</script>
 	</head>
 		<body>
 			<div class="container-fluid">
