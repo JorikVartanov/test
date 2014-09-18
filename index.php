@@ -11,14 +11,13 @@ include('functions.php');
 	<title>test</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Bootstrap -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<!-- <script>
-		$(document).ready(function(){
-			$('#table_id').dataTable();
-		});
-		
-	</script> -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="themes/blue/style.css"> -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<!-- <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script> -->
+	<script type="text/javascript" src="js/my_script.js"></script>
 	</head>
 		<body>
 			<div class="container-fluid">
@@ -107,8 +106,6 @@ include('functions.php');
 						echo 'Вы успешно зарегистрированы!';
 						exit();
 					}
-					//$message = "wrong answer";
-					//echo "<script type='text/javascript'>alert('$message');</script>";
 					$mysqli = new mysqli("localhost", "root", "root", "gestbook");
 					if (mysqli_connect_errno()) {
 						printf("Не удалось подключиться: %s\n", mysqli_connect_error());
@@ -116,14 +113,14 @@ include('functions.php');
 					}
 					$select_query = "SELECT user_name, text, email, homepage, date FROM comments ORDER by comments.id_comments DESC LIMIT 0 , 25";
 					if ($result = $mysqli->query($select_query)) {
-						?><table id="table_id" class="table table-bordered">
+						?><table class="table table-bordered">
 							<thead>
 								<tr>
-									<th> <?php echo 'Name'; ?> <button type="button" class="glyphicon glyphicon-sort-by-alphabet"><button type="button" class="glyphicon glyphicon-sort-by-alphabet-alt"></th>
-									<th> <?php echo 'Text'; ?></th>
-									<th> <?php echo 'Email'; ?> <button type="button" class="glyphicon glyphicon-sort-by-alphabet"><button type="button" class="glyphicon glyphicon-sort-by-alphabet-alt"></th>
-									<th> <?php echo 'Homepage'; ?></th>
-									<th> <?php echo 'Date'; ?> <button type="button" class="glyphicon glyphicon-sort-by-alphabet"><button type="button" class="glyphicon glyphicon-sort-by-alphabet-alt"></th>
+									<th> <?php echo 'Name '; ?><button type="button" class="glyphicon glyphicon-sort-by-alphabet" onclick="window.location='https://www.google.com.ua/'"><button type="button" class="glyphicon glyphicon-sort-by-alphabet-alt"></th>
+									<th> <?php echo 'Text '; ?></th>
+									<th> <?php echo 'Email '; ?><button type="button" class="glyphicon glyphicon-sort-by-alphabet"><button type="button" class="glyphicon glyphicon-sort-by-alphabet-alt"></th>
+									<th> <?php echo 'Homepage '; ?></th>
+									<th> <?php echo 'Date '; ?><button type="button" class="glyphicon glyphicon-sort-by-order"><button type="button" class="glyphicon glyphicon-sort-by-order-alt"></th>
 								</tr>
 							</thead>
 							<tbody>
@@ -143,11 +140,5 @@ include('functions.php');
 					
 				?>
 			</div>
-			
-			<script src="http://code.jquery.com/jquery-2.1.0.min.js" type="text/javascript"></script>
-			<!-- Include all compiled plugins (below), or include individual files as needed -->
-			<script src="js/bootstrap.js" type="text/javascript"></script>
-			<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
-
 		</body>
 </html>
