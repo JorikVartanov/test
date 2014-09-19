@@ -19,11 +19,16 @@ include('functions.php');
 	<!-- <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script> -->
 	<script type="text/javascript" src="js/my_script.js"></script>
 	<script>
-		$(document).ready(function(){
-			$("button").click(function(){
-				$("#div1").load("demo_test.txt");
-			});
-		});
+		/*window.onload = function()
+		{
+		    document.getElementById('sort-by-alphabet-alt').onclick = function()
+		    {
+			$("#tbl").load("tesa.txt");
+		    }
+		}*/
+		function sortNameByAlphabet(){
+			$("#tbl").load("tesa.txt");
+		}
 	</script>
 	</head>
 		<body>
@@ -118,12 +123,25 @@ include('functions.php');
 						printf("Не удалось подключиться: %s\n", mysqli_connect_error());
 						exit();
 					}
-					$select_query = "SELECT user_name, text, email, homepage, date FROM comments ORDER by comments.id_comments DESC LIMIT 0 , 25";
-					if ($result = $mysqli->query($select_query)) {
-						?><table class="table table-bordered">
+					$select_query = "SELECT id_comments, user_name, text, email, homepage, date FROM comments ORDER by comments.id_comments DESC LIMIT 0 , 25";
+					$result = $mysqli->query($select_query);
+					$mysqli->close();
+					
+					/*
+					$dataBaseArray = $result->fetch_assoc();
+					foreach ($dataBaseArray as $key => $value){
+						if ($key == 'id_comments'){
+							$base = $value;
+							exit;
+						}
+					}
+					*/
+					
+					if ($result) {
+						?><table id="tbl" class="table table-bordered">
 							<thead>
 								<tr>
-									<th> <?php echo 'Name '; ?><button type="button" class="glyphicon glyphicon-sort-by-alphabet" onclick="window.location='https://www.google.com.ua/'"><button type="button" class="glyphicon glyphicon-sort-by-alphabet-alt"></th>
+									<th> <?php echo 'Name '; ?><button type="button" class="glyphicon glyphicon-sort-by-alphabet" onclick="sortNameByAlphabet()"><button type="button" id="sort-by-alphabet-alt" class="glyphicon glyphicon-sort-by-alphabet-alt"></th>
 									<th> <?php echo 'Text '; ?></th>
 									<th> <?php echo 'Email '; ?><button type="button" class="glyphicon glyphicon-sort-by-alphabet"><button type="button" class="glyphicon glyphicon-sort-by-alphabet-alt"></th>
 									<th> <?php echo 'Homepage '; ?></th>
@@ -131,10 +149,13 @@ include('functions.php');
 								</tr>
 							</thead>
 							<tbody>
-						<?php		while ($row = $result->fetch_assoc()) {
+						<?php		while ($dataBaseArray = $result->fetch_assoc()) {
 						?>			<tr>
-						<?php			foreach ($row as $value){
-						?>				<td><?php echo "$value"; ?></td>
+						<?php			foreach ($dataBaseArray as $key => $value){
+										if ($key == 'id_comments')
+											continue;
+										else
+						?>					<td><?php echo "$value"; ?></td>
 						<?php			}
 						?>			</tr>
 						<?php		}
@@ -143,8 +164,7 @@ include('functions.php');
 						</table>
 					<?php
 					}
-					$mysqli->close();
-					
+					//echo $base;
 				?>
 			</div>
 		</body>

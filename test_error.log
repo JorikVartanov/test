@@ -1,5 +1,4 @@
-[Wed Sep 17 16:01:59.908988 2014] [:error] [pid 2555] [client 127.0.0.1:41180] PHP Notice:  Undefined variable: message in /home/sergio/projects/test/index.php on line 103
-[Wed Sep 17 16:37:04.936172 2014] [:error] [pid 1154] [client 127.0.0.1:41233] PHP Notice:  Undefined variable: message in /home/sergio/projects/test/index.php on line 103
-[Wed Sep 17 17:07:16.222349 2014] [:error] [pid 1153] [client 127.0.0.1:41420] PHP Parse error:  syntax error, unexpected '<' in /home/sergio/projects/test/index.php on line 139
-[Wed Sep 17 17:07:18.734823 2014] [:error] [pid 2560] [client 127.0.0.1:41421] PHP Parse error:  syntax error, unexpected '<' in /home/sergio/projects/test/index.php on line 139
-[Wed Sep 17 17:29:45.415924 2014] [:error] [pid 1154] [client 127.0.0.1:41533] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/sergio/projects/test/index.php on line 142
+[Fri Sep 19 15:46:00.005545 2014] [:error] [pid 2547] [client 127.0.0.1:50493] PHP Notice:  Undefined variable: dataBaseArray in /home/sergio/projects/test/index.php on line 132
+[Fri Sep 19 15:46:00.005602 2014] [:error] [pid 2547] [client 127.0.0.1:50493] PHP Warning:  Invalid argument supplied for foreach() in /home/sergio/projects/test/index.php on line 132
+[Fri Sep 19 15:46:00.006055 2014] [:error] [pid 2547] [client 127.0.0.1:50493] PHP Notice:  Undefined variable: base in /home/sergio/projects/test/index.php on line 167
+[Fri Sep 19 15:47:59.452047 2014] [:error] [pid 1141] [client 127.0.0.1:50505] PHP Notice:  Undefined variable: base in /home/sergio/projects/test/index.php on line 167
