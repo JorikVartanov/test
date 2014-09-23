@@ -25,7 +25,7 @@ function form(){
                     <div class="form-group">
                             <label for="inputHomepage" class="col-sm-3 control-label">Homepage</label>
                             <div class="col-sm-9">
-                                    <input type="text" name="homepage" class="form-control" id="inputHomepage" placeholder="Homepage">
+                                    <input type="url" name="homepage" class="form-control" id="inputHomepage" placeholder="Homepage">
                             </div>
                     </div>
                     
@@ -109,5 +109,38 @@ function tableShow(){
                 <?php
                 }
                 $mysqli->close();
+}
+function pagination(){
+    ?>
+    <ul class="pagination">
+            <li><span>&laquo;</span></li>
+            <li class="active"><span>1 <span class="sr-only"></span></span></li>
+            <li><span>2 <span class="sr-only"></span></span></li>
+            <li><span>3 <span class="sr-only"></span></span></li>
+            <li><span>&raquo;</span></li>
+    </ul>
+    <?php
+}
+function mysqlGetData(){
+        $mysqlGetData = mysqli_connect("localhost", "root", "root", "gestbook");
+        if (mysqli_connect_errno()) {
+                printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+                exit();
+        }
+        $query = "SELECT id_comments, user_name, text, email, homepage, date FROM comments ORDER by comments.id_comments DESC";
+        mysqli_set_charset($mysqlGetData, "utf8");
+        $_SESSION['allCommentsFromBase'] = $mysqlGetData->query($query);
+        $mysqlGetData->close();
+}
+function mysqlSetData($username, $email, $homepage, $comment, $commentDate, $browser, $ip_user){
+        $mysqlSetData = mysqli_connect("localhost", "root", "root", "gestbook");
+        if (mysqli_connect_errno()) {
+                printf("Не удалось подключиться: %s\n", mysqli_connect_error());
+                exit();
+        }
+        $query = "INSERT INTO `comments` (`user_name`, `email`,`homepage`,`text`,`date`,`browser`,`ip_user`) VALUES ('".$username."', '".$email."', '".$homepage."', '".$comment."', '".$commentDate."', '".$browser."', '".$ip_user."')";
+        mysqli_set_charset($mysqlSetData, "utf8");
+        $mysqlSetData->query($query);
+        $mysqlSetData->close();
 }
 ?>

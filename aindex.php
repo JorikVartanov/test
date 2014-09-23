@@ -27,8 +27,7 @@ include('functions.php');
 		    }
 		}
 		function sortNameByAlphabet(){
-			success:mysqlGetData()  // ЗАКОНЧИЛ НА ЭТОМ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-			$("#tbl").load("aindex.php #tbl");
+			$("#tbl-body").load("aindex.php #tbl-body");
 		}
 		function setLocation(curLoc){
 			try {
