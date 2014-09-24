@@ -27,8 +27,8 @@ include('functions.php');
 		    }
 		}
 		function sortNameByAlphabet(){
-			success:mysqlGetData()  // ЗАКОНЧИЛ НА ЭТОМ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-			$("#tbl").load("aindex.php #tbl");
+			$("#getData").load("index.php #getData");
+			$("#tbl").load("index.php #tbl");
 		}
 		function setLocation(curLoc){
 			try {
@@ -49,6 +49,9 @@ include('functions.php');
 				<p><a href="phpinfo.php">phpinfo</a></p>
 				
 				<?php
+				function ebg(){
+					echo "<script>alert('text')</script>";
+				}
 					if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 						form();
 						echo "</br> Comes with GET </br>";
@@ -119,13 +122,15 @@ include('functions.php');
 						echo $browser;
 						mysqlSetData($username, $email, $homepage, $comment, $commentDate, $browser, $ip_user);
 					}
+					?><div id="getData"><?php
 					mysqlGetData();
+					?></div><?php
 					if ($_SESSION['allCommentsFromBase']) {
 						pagination();
 						?><table id="tbl" class="table table-bordered">
 							<thead>
 								<tr>
-									<th> <?php echo 'Name '; ?><button type="button" class="glyphicon glyphicon-sort-by-alphabet" onclick="sortNameByAlphabet()"><button type="button" id="sort-by-alphabet-alt" class="glyphicon glyphicon-sort-by-alphabet-alt"></th>
+									<th> <?php echo 'Name '; ?><button type="button" class="glyphicon glyphicon-sort-by-alphabet" onclick="setLocation('google.com.ua/%user%')"><button type="button" id="sort-by-alphabet-alt" class="glyphicon glyphicon-sort-by-alphabet-alt"></th>
 									<th> <?php echo 'Text '; ?></th>
 									<th> <?php echo 'Email '; ?><button type="button" class="glyphicon glyphicon-sort-by-alphabet"><button type="button" class="glyphicon glyphicon-sort-by-alphabet-alt"></th>
 									<th> <?php echo 'Homepage '; ?></th>

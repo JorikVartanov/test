@@ -127,7 +127,7 @@ function mysqlGetData(){
                 printf("Не удалось подключиться: %s\n", mysqli_connect_error());
                 exit();
         }
-        $query = "SELECT id_comments, user_name, text, email, homepage, date FROM comments ORDER by comments.id_comments DESC";
+        $query = "SELECT id_comments, user_name, text, email, homepage, date FROM comments ORDER by comments.id_comments DESC LIMIT 0 , 25";
         mysqli_set_charset($mysqlGetData, "utf8");
         $_SESSION['allCommentsFromBase'] = $mysqlGetData->query($query);
         $mysqlGetData->close();
