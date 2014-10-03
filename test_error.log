@@ -2,3 +2,687 @@
 [Fri Sep 19 15:46:00.005602 2014] [:error] [pid 2547] [client 127.0.0.1:50493] PHP Warning:  Invalid argument supplied for foreach() in /home/sergio/projects/test/index.php on line 132
 [Fri Sep 19 15:46:00.006055 2014] [:error] [pid 2547] [client 127.0.0.1:50493] PHP Notice:  Undefined variable: base in /home/sergio/projects/test/index.php on line 167
 [Fri Sep 19 15:47:59.452047 2014] [:error] [pid 1141] [client 127.0.0.1:50505] PHP Notice:  Undefined variable: base in /home/sergio/projects/test/index.php on line 167
+[Tue Sep 23 11:30:33.379756 2014] [:error] [pid 1132] [client 127.0.0.1:34278] PHP Notice:  Undefined variable: result in /home/sergio/projects/test/index.php on line 139
+[Tue Sep 23 11:30:51.539383 2014] [:error] [pid 1136] [client 127.0.0.1:34282] PHP Notice:  Undefined variable: result in /home/sergio/projects/test/index.php on line 139
+[Tue Sep 23 11:30:54.826710 2014] [:error] [pid 1136] [client 127.0.0.1:34282] PHP Notice:  Undefined variable: result in /home/sergio/projects/test/index.php on line 139
+[Tue Sep 23 11:31:02.873688 2014] [:error] [pid 1132] [client 127.0.0.1:34287] PHP Notice:  Undefined variable: result in /home/sergio/projects/test/index.php on line 139
+[Tue Sep 23 11:31:53.472490 2014] [:error] [pid 2514] [client 127.0.0.1:34291] PHP Notice:  Undefined variable: result in /home/sergio/projects/test/index.php on line 139
+[Tue Sep 23 11:32:05.512791 2014] [:error] [pid 1136] [client 127.0.0.1:34295] PHP Notice:  Undefined variable: result in /home/sergio/projects/test/index.php on line 139
+[Tue Sep 23 11:37:27.967075 2014] [:error] [pid 2586] [client 127.0.0.1:34300] PHP Notice:  Undefined variable: result in /home/sergio/projects/test/index.php on line 140
+[Tue Sep 23 11:37:30.197678 2014] [:error] [pid 2586] [client 127.0.0.1:34300] PHP Notice:  Undefined variable: result in /home/sergio/projects/test/index.php on line 140
+[Tue Sep 23 11:51:20.701655 2014] [:error] [pid 3480] [client 127.0.0.1:34399] PHP Warning:  mysqli_set_charset() expects exactly 2 parameters, 1 given in /home/sergio/projects/test/index.php on line 129, referer: http://test.loc/
+[Tue Sep 23 13:18:35.923880 2014] [:error] [pid 3480] [client 127.0.0.1:34527] PHP Notice:  Undefined variable: username in /home/sergio/projects/test/index.php on line 118, referer: http://test.loc/
+[Tue Sep 23 13:18:35.923923 2014] [:error] [pid 3480] [client 127.0.0.1:34527] PHP Notice:  Undefined variable: email in /home/sergio/projects/test/index.php on line 118, referer: http://test.loc/
+[Tue Sep 23 13:18:35.923930 2014] [:error] [pid 3480] [client 127.0.0.1:34527] PHP Notice:  Undefined variable: homepage in /home/sergio/projects/test/index.php on line 118, referer: http://test.loc/
+[Tue Sep 23 13:18:35.923936 2014] [:error] [pid 3480] [client 127.0.0.1:34527] PHP Notice:  Undefined variable: comment in /home/sergio/projects/test/index.php on line 118, referer: http://test.loc/
+[Tue Sep 23 13:18:35.923942 2014] [:error] [pid 3480] [client 127.0.0.1:34527] PHP Notice:  Undefined variable: commentDate in /home/sergio/projects/test/index.php on line 118, referer: http://test.loc/
+[Tue Sep 23 13:18:35.923947 2014] [:error] [pid 3480] [client 127.0.0.1:34527] PHP Notice:  Undefined variable: browser in /home/sergio/projects/test/index.php on line 118, referer: http://test.loc/
+[Tue Sep 23 13:18:35.923953 2014] [:error] [pid 3480] [client 127.0.0.1:34527] PHP Notice:  Undefined variable: ip_user in /home/sergio/projects/test/index.php on line 118, referer: http://test.loc/
+[Tue Sep 23 13:57:31.462672 2014] [:error] [pid 2513] [client 127.0.0.1:34584] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/sergio/projects/test/functions.php:81) in /home/sergio/projects/test/index.php on line 123, referer: http://test.loc/
+[Tue Sep 23 14:06:57.186545 2014] [:error] [pid 4144] [client 127.0.0.1:34678] PHP Notice:  Undefined variable: HTTP_COOKIE_VARS in /home/sergio/projects/test/index.php on line 164
+[Tue Sep 23 14:33:48.136878 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 115 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.136922 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 54n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.136934 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 54dsfgsdfg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.136944 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 54@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.136954 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.136963 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-23 14:02:55 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.136979 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 114 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.136988 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 53n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.136997 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 53\xd0\xb2\xd0\xb0\xd0\xbc\xd0\xb2\xd1\x8b\xd0\xb0 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137007 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 53@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137016 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://53dsdd in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137025 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-23 13:57:31 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137038 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 113 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137046 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 52n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137056 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 52dfgdfg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137064 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 52@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137073 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://g52 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137082 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-23 13:22:59 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137094 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 111 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137103 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 51n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137112 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 51dsfgsdfgsdfg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137121 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 51@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137129 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://51wwwwwwww in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137138 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-23 13:13:33 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137165 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 110 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137173 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 50n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137182 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 50\xd0\xb0\xd0\xb2\xd0\xb8\xd0\xb0\xd1\x8b\xd0\xbf\xd0\xb8\xd1\x8b\xd0\xb0\xd0\xbf\xd0\xb8\xd0\xb0\xd1\x8b\xd0\xbf\xd0\xb8 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137191 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 50@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137199 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://50goo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137207 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-23 13:09:42 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137219 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 106 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137228 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 49n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137241 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 49\xd0\xb0\xd0\xb2\xd0\xb8\xd0\xb0\xd1\x8b\xd0\xbf\xd0\xb8\xd1\x8b\xd0\xb0\xd0\xbf\xd0\xb8\xd0\xb0\xd1\x8b\xd0\xbf\xd0\xb8 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137255 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 49@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137269 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://49goo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137282 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-23 11:53:39 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137303 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 103 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137316 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 48n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137330 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 48dfgdfrfgbfg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137343 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 48@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137377 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://go.48 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137396 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-23 08:54:54 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137417 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 102 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137437 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 47n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137448 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 47fghfghfghj in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137458 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 47n@hf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137478 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137488 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-23 07:14:08 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137505 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 101 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137516 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 46n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137526 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 46nftgnhthn in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137537 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: fffgds@sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137547 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137558 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-22 15:27:02 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137574 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 99 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137584 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 45n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137594 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 45dfgdfgdfgd in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137604 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 45.@s in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137615 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://goo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137625 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-22 14:56:34 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137642 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 97 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137652 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 44gdfgdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137663 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 44 ndfgn in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137674 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 1er23@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137685 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137695 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 13:14:35 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137711 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 96 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137723 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 43ngsdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137734 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 43 nghnfg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137743 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 43@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137750 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://sdfsdf.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137763 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 13:13:16 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137787 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 95 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137794 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 42n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137800 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 42 ndfgbfg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137806 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 123@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137813 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://goerto.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137819 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 13:11:56 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137827 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 94 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137833 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 41sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137839 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 41ndfgh in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137845 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: aert@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137851 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://gertoo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137857 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 13:10:23 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137866 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 93 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137872 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 40n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137878 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 40 ndfghd in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137885 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 40@dfg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137891 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://goo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137897 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 13:04:21 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137906 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 92 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.137912 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 39mdfg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138124 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 39 cfgh in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138134 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 39@mail in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138147 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://39.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138154 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 13:00:17 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138164 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 91 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138170 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 38sdfhg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138177 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 38 fgh in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138183 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 38@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138189 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://38oo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138195 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 12:58:31 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138204 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 90 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138210 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 37nam in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138216 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 37 dfbgdsf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138222 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 37@nam in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138228 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://37rtgoo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138234 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 12:57:18 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138242 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 89 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138248 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 36 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138254 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 36 dfgsdfgsdfgsdfg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138261 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 36@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138267 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://36ttt.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138273 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 12:55:22 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138282 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 88 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138288 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 35n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138294 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 35353535 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138300 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 35@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138311 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://35.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138318 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 10:06:12 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138327 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 87 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138333 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 34name in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138339 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 34343434 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138345 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 34@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138351 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://34.n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138357 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 10:05:34 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138366 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 86 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138372 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 33na in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138378 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 333333333333333 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138384 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 33@nam in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138390 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://33na.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138396 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 10:02:31 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138405 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 85 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138411 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 32na in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138417 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 32323232323232 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138423 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 32@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138429 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://32.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138435 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 10:01:27 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138444 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 84 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138450 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 31n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138456 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 3131313133131313 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138462 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 31@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138473 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://31.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138480 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 10:00:54 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138488 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 83 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138494 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: dfgbdfg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138501 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: fgbdfg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138507 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: dfgbdfg@rftgb in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138513 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://godfgo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138519 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 10:00:20 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138527 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 82 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138533 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: vsdfbas in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138539 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: qwefaasefv in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138546 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: koval_sergej@i.ua in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138552 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://serega.ua in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138558 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 09:59:20 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138566 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 81 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138572 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: dfvbedsdfdfsdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138578 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: fvdefv in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138584 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: vsd@fvg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138590 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138596 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 09:58:14 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138605 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 80 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138611 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: dvszv in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138620 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: dfbv in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138631 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 12s3@nsdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138649 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://gdfvoo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138660 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 09:57:40 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138676 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 79 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138686 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: dvfsd in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138697 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: dfsvs in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138707 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: daddfffgss@m.ua in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138717 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138728 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 09:56:35 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138743 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 78 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138753 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: sdfb in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138763 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: ytre in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138773 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: govdfvga@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138784 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138795 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 09:55:56 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138812 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 77 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138823 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: bverfgv in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138833 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: gerfbga in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138844 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: awaefss@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138854 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138865 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 09:53:15 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138880 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 76 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138890 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: awer in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138902 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: waer in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138913 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: aawerss@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138933 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138944 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 09:53:02 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138959 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 75 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138969 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: casdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138980 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: brtb in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.138990 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: veraer@btr in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139002 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139013 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 09:52:45 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139030 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 74 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139041 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: asdfqwef in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139052 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: vefrv in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139063 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: jorikvartanov13@i.ua in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139074 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: asdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139084 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 09:52:23 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139101 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 73 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139114 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: asdfw in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139125 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: hrth in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139136 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 1e2e3ge@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139147 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139159 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 09:52:07 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139175 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 72 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139185 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: ervwse4rt in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139196 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: rumrt in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139206 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 1ge2erg3@ne in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139225 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139236 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 09:51:51 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139252 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 71 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139263 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: trghb in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139274 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: yumjmrd in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139285 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: grosrga@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139299 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139309 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 09:51:31 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139325 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 70 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139335 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: tb in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139345 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: jyujhm in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139356 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: attyjhtsts@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139368 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139379 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 09:51:16 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139395 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 69 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139405 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: asdfvber in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139415 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: fgh in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139425 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: brrtg@er in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139435 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139446 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 09:51:00 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139462 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 68 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139474 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: gfhj in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139485 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: ghj in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139497 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: jgf@ger in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139515 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139525 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 09:50:39 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139540 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 67 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139550 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: gesrfgv in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139579 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: hrthb in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139592 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: gee123@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139604 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139614 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 09:48:21 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139634 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 66 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139640 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: dvfva in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139647 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: vdsfv in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139654 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: vs1v2v3@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139661 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139668 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 09:12:29 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139678 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 61 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139685 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: dfvvd in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139691 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: dvfvd in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139698 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: godgsa@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139705 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139712 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 09:05:19 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139722 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 55 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139729 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: erv in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139736 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: rbe in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139743 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: aeass@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139754 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://geoero.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139761 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 08:55:06 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139772 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 54 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139779 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: brte in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139786 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: fsdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139792 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: aeserfs@mefail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139799 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://geoo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139805 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 08:54:53 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139815 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 53 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139821 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: erwe in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139827 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: verff in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139833 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: sasssdfs@msil.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139840 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://gsdoso.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139846 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 08:54:42 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139856 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 52 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139862 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: aewrf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139869 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: sdfverv in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139875 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: ers@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139882 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://gereoeo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139888 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 08:54:26 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139897 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 51 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139904 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: muytyuj in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139910 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: myu in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139917 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: asssdfs@i.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139928 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://seggoo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139936 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 08:54:11 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139946 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 50 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139952 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: ge in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139959 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: rtg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139966 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: arrsrs@meaeil.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139972 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://gsdfogreo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139979 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 08:53:14 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139988 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 49 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.139994 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: frty in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140001 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: yukr in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140007 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: gyogya@mail.ruy in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140014 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://yugoo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140020 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 08:52:44 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140030 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 48 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140037 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: yuj in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140043 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: nytuj in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140050 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: aysyus@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140057 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://jgoo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140064 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 08:52:31 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140074 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 47 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140081 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: yytrg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140087 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: hgkg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140095 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: yayus@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140106 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://ujgyoyo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140113 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 08:51:40 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140123 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 45 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140130 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: gdfd in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140137 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: sdfa in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140143 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: dfg123@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140150 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://ty.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140157 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 08:48:33 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140166 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined offset: 44 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140172 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: asdfa in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140179 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: asdfasdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140186 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: aghesdfss@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140192 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: https://goo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:33:48.140199 2014] [:error] [pid 1132] [client 127.0.0.1:34796] PHP Notice:  Undefined index: 2014-09-15 08:47:05 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104293 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 115 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104341 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 54n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104358 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 54dsfgsdfg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104375 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 54@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104391 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104407 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-23 14:02:55 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104432 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 114 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104446 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 53n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104461 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 53\xd0\xb2\xd0\xb0\xd0\xbc\xd0\xb2\xd1\x8b\xd0\xb0 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104478 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 53@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104503 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://53dsdd in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104512 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-23 13:57:31 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104526 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 113 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104534 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 52n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104542 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 52dfgdfg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104550 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 52@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104559 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://g52 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104566 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-23 13:22:59 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104578 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 111 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104586 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 51n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104594 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 51dsfgsdfgsdfg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104602 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 51@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104610 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://51wwwwwwww in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104619 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-23 13:13:33 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104630 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 110 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104638 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 50n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104647 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 50\xd0\xb0\xd0\xb2\xd0\xb8\xd0\xb0\xd1\x8b\xd0\xbf\xd0\xb8\xd1\x8b\xd0\xb0\xd0\xbf\xd0\xb8\xd0\xb0\xd1\x8b\xd0\xbf\xd0\xb8 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104656 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 50@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104664 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://50goo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104676 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-23 13:09:42 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104695 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 106 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104709 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 49n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104723 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 49\xd0\xb0\xd0\xb2\xd0\xb8\xd0\xb0\xd1\x8b\xd0\xbf\xd0\xb8\xd1\x8b\xd0\xb0\xd0\xbf\xd0\xb8\xd0\xb0\xd1\x8b\xd0\xbf\xd0\xb8 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104749 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 49@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104763 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://49goo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104777 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-23 11:53:39 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104799 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 103 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104814 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 48n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104828 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 48dfgdfrfgbfg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104842 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 48@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104857 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://go.48 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104872 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-23 08:54:54 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104893 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 102 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104906 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 47n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104920 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 47fghfghfghj in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104934 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 47n@hf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104948 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104963 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-23 07:14:08 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104984 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 101 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.104999 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 46n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105012 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 46nftgnhthn in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105026 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: fffgds@sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105040 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105054 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-22 15:27:02 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105075 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 99 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105090 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 45n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105117 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 45dfgdfgdfgd in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105128 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 45.@s in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105136 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://goo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105144 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-22 14:56:34 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105157 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 97 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105165 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 44gdfgdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105173 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 44 ndfgn in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105181 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 1er23@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105189 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105196 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 13:14:35 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105208 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 96 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105216 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 43ngsdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105224 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 43 nghnfg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105232 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 43@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105240 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://sdfsdf.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105247 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 13:13:16 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105258 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 95 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105266 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 42n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105274 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 42 ndfgbfg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105282 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 123@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105290 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://goerto.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105297 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 13:11:56 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105308 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 94 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105316 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 41sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105331 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 41ndfgh in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105339 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: aert@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105347 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://gertoo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105355 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 13:10:23 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105385 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 93 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105395 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 40n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105407 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 40 ndfghd in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105422 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 40@dfg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105442 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://goo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105451 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 13:04:21 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105465 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 92 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105475 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 39mdfg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105673 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 39 cfgh in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105684 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 39@mail in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105690 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://39.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105696 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 13:00:17 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105705 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 91 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105711 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 38sdfhg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105716 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 38 fgh in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105722 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 38@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105728 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://38oo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105733 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 12:58:31 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105741 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 90 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105746 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 37nam in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105758 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 37 dfbgdsf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105764 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 37@nam in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105770 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://37rtgoo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105775 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 12:57:18 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105783 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 89 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105788 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 36 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105794 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 36 dfgsdfgsdfgsdfg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105800 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 36@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105805 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://36ttt.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105811 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 12:55:22 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105819 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 88 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105824 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 35n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105830 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 35353535 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105835 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 35@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105841 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://35.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105846 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 10:06:12 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105854 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 87 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105860 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 34name in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105865 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 34343434 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105871 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 34@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105877 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://34.n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105882 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 10:05:34 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105890 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 86 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105895 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 33na in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105905 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 333333333333333 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105911 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 33@nam in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105917 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://33na.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105922 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 10:02:31 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105930 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 85 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105935 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 32na in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105941 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 32323232323232 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105947 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 32@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105952 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://32.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105957 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 10:01:27 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105965 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 84 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105970 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 31n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105976 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 3131313133131313 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105982 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 31@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105987 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://31.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.105993 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 10:00:54 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106000 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 83 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106006 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: dfgbdfg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106011 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: fgbdfg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106017 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: dfgbdfg@rftgb in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106022 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://godfgo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106028 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 10:00:20 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106035 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 82 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106046 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: vsdfbas in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106052 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: qwefaasefv in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106057 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: koval_sergej@i.ua in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106063 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://serega.ua in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106068 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 09:59:20 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106076 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 81 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106081 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: dfvbedsdfdfsdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106087 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: fvdefv in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106092 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: vsd@fvg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106098 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106103 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 09:58:14 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106111 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 80 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106116 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: dvszv in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106122 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: dfbv in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106128 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 12s3@nsdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106133 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://gdfvoo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106139 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 09:57:40 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106146 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 79 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106151 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: dvfsd in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106157 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: dfsvs in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106163 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: daddfffgss@m.ua in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106168 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106174 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 09:56:35 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106181 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 78 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106191 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: sdfb in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106197 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: ytre in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106203 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: govdfvga@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106208 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106214 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 09:55:56 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106221 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 77 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106227 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: bverfgv in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106232 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: gerfbga in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106238 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: awaefss@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106244 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106249 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 09:53:15 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106257 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 76 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106262 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: awer in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106267 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: waer in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106273 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: aawerss@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106279 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106284 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 09:53:02 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106292 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 75 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106297 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: casdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106302 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: brtb in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106308 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: veraer@btr in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106313 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106319 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 09:52:45 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106326 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 74 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106332 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: asdfqwef in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106340 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: vefrv in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106346 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: jorikvartanov13@i.ua in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106351 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: asdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106357 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 09:52:23 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106365 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 73 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106370 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: asdfw in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106376 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: hrth in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106381 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 1e2e3ge@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106387 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106392 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 09:52:07 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106400 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 72 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106405 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: ervwse4rt in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106410 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: rumrt in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106416 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 1ge2erg3@ne in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106421 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106427 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 09:51:51 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106434 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 71 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106440 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: trghb in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106445 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: yumjmrd in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106451 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: grosrga@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106458 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106464 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 09:51:31 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106471 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 70 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106477 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: tb in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106487 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: jyujhm in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106493 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: attyjhtsts@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106498 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106504 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 09:51:16 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106511 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 69 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106517 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: asdfvber in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106522 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: fgh in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106528 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: brrtg@er in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106533 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106538 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 09:51:00 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106546 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 68 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106551 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: gfhj in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106557 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: ghj in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106562 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: jgf@ger in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106568 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106573 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 09:50:39 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106581 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 67 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106586 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: gesrfgv in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106592 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: hrthb in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106597 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: gee123@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106603 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106608 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 09:48:21 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106615 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 66 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106621 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: dvfva in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106630 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: vdsfv in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106636 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: vs1v2v3@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106641 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106647 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 09:12:29 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106654 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 61 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106660 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: dfvvd in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106665 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: dvfvd in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106671 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: godgsa@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106676 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index:  in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106682 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 09:05:19 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106689 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 55 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106695 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: erv in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106700 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: rbe in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106706 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: aeass@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106711 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://geoero.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106717 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 08:55:06 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106724 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 54 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106729 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: brte in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106735 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: fsdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106740 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: aeserfs@mefail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106746 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://geoo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106752 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 08:54:53 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106759 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 53 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106764 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: erwe in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106774 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: verff in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106780 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: sasssdfs@msil.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106785 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://gsdoso.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106791 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 08:54:42 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106799 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 52 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106804 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: aewrf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106809 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: sdfverv in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106815 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: ers@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106821 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://gereoeo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106826 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 08:54:26 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106834 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 51 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106839 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: muytyuj in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106845 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: myu in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106850 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: asssdfs@i.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106856 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://seggoo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106861 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 08:54:11 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106869 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 50 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106874 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: ge in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106880 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: rtg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106885 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: arrsrs@meaeil.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106891 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://gsdfogreo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106896 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 08:53:14 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106904 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 49 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106909 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: frty in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106921 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: yukr in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106931 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: gyogya@mail.ruy in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106940 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://yugoo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106950 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 08:52:44 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106965 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 48 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106976 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: yuj in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106985 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: nytuj in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.106995 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: aysyus@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.107004 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://jgoo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.107014 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 08:52:31 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.107028 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 47 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.107038 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: yytrg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.107047 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: hgkg in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.107057 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: yayus@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.107066 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://ujgyoyo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.107075 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 08:51:40 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.107091 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 45 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.107101 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: gdfd in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.107111 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: sdfa in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.107121 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: dfg123@n in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.107130 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://ty.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.107140 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 08:48:33 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.107154 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined offset: 44 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.107172 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: asdfa in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.107183 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: asdfasdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.107193 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: aghesdfss@mail.ru in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.107203 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: https://goo.sdf in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:34:20.107213 2014] [:error] [pid 3545] [client 127.0.0.1:34803] PHP Notice:  Undefined index: 2014-09-15 08:47:05 in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 14:45:38.606584 2014] [:error] [pid 3609] [client 127.0.0.1:34836] PHP Notice:  Undefined variable: allCommentsFromBase in /home/sergio/projects/test/index.php on line 138
+[Tue Sep 23 14:50:29.150586 2014] [:error] [pid 4143] [client 127.0.0.1:34838] PHP Fatal error:  Call to a member function free() on a non-object in /home/sergio/projects/test/index.php on line 161
+[Tue Sep 23 15:47:10.344695 2014] [:error] [pid 1132] [client 127.0.0.1:35328] PHP Notice:  Undefined variable: allCommentsFromBase in /home/sergio/projects/test/index.php on line 152
+[Tue Sep 23 15:49:29.189118 2014] [:error] [pid 3609] [client 127.0.0.1:35332] PHP Notice:  Undefined variable: allCommentsFromBase in /home/sergio/projects/test/index.php on line 153
+[Tue Sep 23 15:56:31.200310 2014] [:error] [pid 2500] [client 127.0.0.1:35337] PHP Notice:  Undefined variable: username in /home/sergio/projects/test/functions.php on line 141, referer: http://test.loc/
+[Tue Sep 23 15:56:31.200348 2014] [:error] [pid 2500] [client 127.0.0.1:35337] PHP Notice:  Undefined variable: email in /home/sergio/projects/test/functions.php on line 141, referer: http://test.loc/
+[Tue Sep 23 15:56:31.200359 2014] [:error] [pid 2500] [client 127.0.0.1:35337] PHP Notice:  Undefined variable: homepage in /home/sergio/projects/test/functions.php on line 141, referer: http://test.loc/
+[Tue Sep 23 15:56:31.200368 2014] [:error] [pid 2500] [client 127.0.0.1:35337] PHP Notice:  Undefined variable: comment in /home/sergio/projects/test/functions.php on line 141, referer: http://test.loc/
+[Tue Sep 23 15:56:31.200378 2014] [:error] [pid 2500] [client 127.0.0.1:35337] PHP Notice:  Undefined variable: commentDate in /home/sergio/projects/test/functions.php on line 141, referer: http://test.loc/
+[Tue Sep 23 15:56:31.200388 2014] [:error] [pid 2500] [client 127.0.0.1:35337] PHP Notice:  Undefined variable: browser in /home/sergio/projects/test/functions.php on line 141, referer: http://test.loc/
+[Tue Sep 23 15:56:31.200396 2014] [:error] [pid 2500] [client 127.0.0.1:35337] PHP Notice:  Undefined variable: ip_user in /home/sergio/projects/test/functions.php on line 141, referer: http://test.loc/
+[Tue Sep 23 16:01:08.364574 2014] [:error] [pid 1132] [client 127.0.0.1:35338] PHP Notice:  Undefined variable: username in /home/sergio/projects/test/index.php on line 49, referer: http://test.loc/
+[Tue Sep 23 16:01:08.364608 2014] [:error] [pid 1132] [client 127.0.0.1:35338] PHP Notice:  Undefined variable: email in /home/sergio/projects/test/index.php on line 49, referer: http://test.loc/
+[Tue Sep 23 16:01:08.364616 2014] [:error] [pid 1132] [client 127.0.0.1:35338] PHP Notice:  Undefined variable: homepage in /home/sergio/projects/test/index.php on line 49, referer: http://test.loc/
+[Tue Sep 23 16:01:08.364623 2014] [:error] [pid 1132] [client 127.0.0.1:35338] PHP Notice:  Undefined variable: comment in /home/sergio/projects/test/index.php on line 49, referer: http://test.loc/
+[Tue Sep 23 16:01:08.364638 2014] [:error] [pid 1132] [client 127.0.0.1:35338] PHP Notice:  Undefined variable: commentDate in /home/sergio/projects/test/index.php on line 49, referer: http://test.loc/
+[Tue Sep 23 16:01:08.364645 2014] [:error] [pid 1132] [client 127.0.0.1:35338] PHP Notice:  Undefined variable: browser in /home/sergio/projects/test/index.php on line 49, referer: http://test.loc/
+[Tue Sep 23 16:01:08.364664 2014] [:error] [pid 1132] [client 127.0.0.1:35338] PHP Notice:  Undefined variable: ip_user in /home/sergio/projects/test/index.php on line 49, referer: http://test.loc/
